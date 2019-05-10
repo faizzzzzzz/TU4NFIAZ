@@ -131,11 +131,15 @@ fi
 if [ $pil = 10 ]
 then
 clear
-sleep2
-echo $cy"terima kasih telah menggunakan tool ini"
-sleep2
-echo $cy"jika ada yang menjual belikan TOOL ini laporkan ke 085220205961"
-sleep2
-echo $cy"thanks to =allah swt,orang tua gue,all member acp,pengguna tool ini"
+figlet -f slant "E X I T"|lolcat
+sleep 2
+echo $cy"Terima Kasih Sudah Pakai Tool Saya"
+sleep 2
+echo $i"share ke temen kalian jangan lupa yapsss!!"
+sleep 2
+echo $ku"contact :"$i" 085220205961"
+echo $ku"nama :"$i" Mr.f"
+sleep 2
+echo $pur">> TANHK FOR ALL MEMBER ACP <<"
 exit
 fi
