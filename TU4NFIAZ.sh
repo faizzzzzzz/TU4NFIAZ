@@ -9,14 +9,34 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 #jangan kau recode
 echo
+
+echo $pu.        ╔═══════════╗ 
+echo $pu   ╔═╝███████████╚═╗
+echo $pu╔╝███████████████╚╗ 
+echo $pu║█████████████████║ 
+echo $pu║█████████████████║ 
+echo $pu║█████████████████║
+echo $pu║█╔█████████████╗█║ 
+echo $pu╚╦╝███▒▒███▒▒███╚╦╝ 
+echo $pu╔╝██▒▒▒▒███▒▒▒▒██╚╗ 
+echo $pu║██▒▒▒▒▒███▒▒▒▒▒██║ 
+echo $pu║██▒▒▒▒█████▒▒▒▒██║ 
+echo $pu╚╗███████████████╔╝
+echo $pu╔═╬══╦╝██▒█▒██╚╦══╝.▒.. 
+echo $pu║█║══║█████████║　...▒.  
+echo $pu║█║══║█║██║██║█║　.▒..
+echo $pu║█║══╚═╩══╩╦═╩═╩═╦╗▒.  
+echo $pu╔╝█╚══╦═╦══╦╩═╦═╦═╩╝
+echo $pu╔╝█████║█║██║██║█║
+echo $pu║██████║█████████║
 echo
 echo
-echo
-echo
+echo $pu"+________________________________________________________+"
 echo             $me"WELCOME TO MY SCRIPT"
 echo $KU"AUTHOR=MR.F"
 echo  $i"CONTACT WA =085220205961"
 echo $bi"GUNAKANLAH DENGAN BIJAK JANGAN DI SALAH GUNAKAN :)"
+echo $pu"__________________________________________________________"
 echo
 echo $me"1"."ddos"
 echo $ku"2"."sms work 100%"
