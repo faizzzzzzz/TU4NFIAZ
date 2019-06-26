@@ -10,6 +10,9 @@ ku='\033[33;1m' #kuning
 #jangan kau recode
 echo
 echo
+echo
+echo
+echo
 echo             $me"WELCOME TO MY SCRIPT"
 echo $KU"AUTHOR=MR.F"
 echo  $i"CONTACT WA =085220205961"
@@ -50,7 +53,8 @@ echo $ku"32"."install social fish"
 echo  $i"33"."install scaner inurl"
 echo $me"34"."install crew bot"
 echo $ku"35"."install kktp gratis"
-echo $cy"36"."exit/keluar"
+echo  $i"36"."script dimas pnr"
+echo $cy"37"."exit/keluar"
 echo
 echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"Ôò¦ÔöÇ>> " pil
@@ -509,6 +513,18 @@ php zerosvn.php
 fi
 
 if [ $pil = 36 ]
+then
+clear
+sleep 1
+apt update && apt upgrade
+apt install git
+apt istall python
+git clone https://github.com/rx1one/newbie01
+cd newbie01
+sh rdiz.sh
+fi
+
+if [ $pil = 37 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
