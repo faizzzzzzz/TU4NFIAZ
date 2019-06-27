@@ -37,6 +37,7 @@ echo $KU"AUTHOR=MR.F"
 echo  $i"CONTACT WA =085220205961"
 echo $bi"GUNAKANLAH DENGAN BIJAK JANGAN DI SALAH GUNAKAN :)"
 echo $pu"__________________________________________________________"
+echo $cy"01"."sosial media ku"
 echo $cy"00"."aplikasi hacking kumpulan script termux"
 echo $me"1"."ddos"
 echo $ku"2"."sms work 100%"
@@ -87,6 +88,21 @@ echo $cy"46"."exit/keluar"
 echo
 echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"Ôò¦ÔöÇ>> " pil
+
+if [ $pil = 01 ]
+then
+clear
+sleep 5
+echo $me"wa=085220205961"
+sleep 5
+echo $ku"Fb=Faiznjr"
+sleep 5
+echo  $i"Instagram=mamasfnz"
+sleep 5
+echo $bi"Gmail=psgjloyalis62@gmail.com"
+sleep 2
+echo $pur"segituh dulu ya itu sosmed yang aku punya"
+fi
 
 if [ $pil = 00 ]
 then
