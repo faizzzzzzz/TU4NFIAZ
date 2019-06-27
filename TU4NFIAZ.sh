@@ -37,7 +37,7 @@ echo $KU"AUTHOR=MR.F"
 echo  $i"CONTACT WA =085220205961"
 echo $bi"GUNAKANLAH DENGAN BIJAK JANGAN DI SALAH GUNAKAN :)"
 echo $pu"__________________________________________________________"
-echo
+echo $cy"00"."aplikasi hacking kumpulan script termux"
 echo $me"1"."ddos"
 echo $ku"2"."sms work 100%"
 echo  $i"3"."sms  work 200%"
@@ -74,10 +74,30 @@ echo  $i"33"."install scaner inurl"
 echo $me"34"."install crew bot"
 echo $ku"35"."install kktp gratis"
 echo  $i"36"."script dimas pnr"
-echo $cy"37"."exit/keluar"
+echo $me"37"."pengertian ddos"
+echo $ku"38"."pengertian deface"
+echo  $i"39"."pengertian hacker sesungguhnya"
+echo $me"40"."pengertian metasploit"
+echo $ku"41"."pengertian SQLmap"
+echo  $i"42"."pengertian craker"
+echo $me"43"."pengertian penetrasi testing"
+echo $ku"44"."misteri hack fb,instagram,wa sesungguhnya"
+echo  $i"45"."ucapan syukur"
+echo $cy"46"."exit/keluar"
 echo
 echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"Ôò¦ÔöÇ>> " pil
+
+if [ $pil = 00 ]
+then
+clear
+sleep 1
+echo $cy"link nyah dibawah"
+sleep 1
+echo $cy"https://drive.google.com/file/d/1kwtEt22gngqcqd0L-ABq3DVb9_gjJxfx/view?usp=drivesdk"
+sleep 2
+echo $cy"wa=085220205961  save yaa faiz nama ku"
+fi
 
 if [ $pil = 1 ]
 then
@@ -545,6 +565,71 @@ sh rdiz.sh
 fi
 
 if [ $pil = 37 ]
+then
+clear
+sleep 1
+echo $pu"Distributed Denial of Service atau lebih dikenal dengan nama DDoS adalah sebuah percobaan penyerangan dari beberapa sistem komputer yang menargetkan sebuah server agar jumlah traffic menjadi terlalu tinggi sampai server tidak bisa menghandle reque"
+fi
+
+if [ $pil = 38 ]
+then
+clear
+sleep 1
+echo $pu"Deface adalah teknik mengganti atau menyisipkan file pada server, teknik ini dapat dilakukan karena terdapat lubang pada sistem security yang ada di dalam sebuah aplikasi. Hal ini bertujuan untuk melakukan perubahan tampilan pada website korban dengan tampilan yang dimiliki oleh si defacer. Deface merupakan sebuah serangan yang dilakukan untuk mengganti visual dari sebuah website."
+fi
+
+if [ $pil = 39 ]
+then
+clear
+sleep 1
+echo $pu"hacker adalah orang yang mempelajari, menganalisis, memodifikasi, menerobos masuk ke dalam komputer dan jaringan komputer, baik untuk keuntungan atau dimotivasi oleh tantangan."
+fi
+
+if [ $pil = 40 ]
+then
+clear
+sleep 1
+echo $pu"  Metasploit framework adalah sebuah penetration tool yang cukup powerfull untuk melakukan penestrasi kedalam sebuah system."
+fi
+
+if [ $pil = 41 ]
+then
+clear
+sleep 1
+echo $pu"SQLMap adalah alat uji penetrasi open source yang mengotomatisasi proses mendeteksi dan mengeksploitasi kelemahan injeksi SQL dan mengambil alih basis data server. "
+fi
+
+if [ $pil = 42 ]
+then
+clear
+sleep 1
+echo $pu"Cracker adalah sebutan untuk mereka yang masuk ke sistem orang lain dan cracker lebih bersifat destruktif, biasanya di jaringan komputer, mem-bypass password atau lisensi program komputer, secara sengaja melawan keamanan komputer, men-deface (merubah halaman muka web) milik orang lain bahkan hingga men-delete data orang lain, mencuri data dan umumnya melakukan cracking untuk keuntungan sendiri, maksud jahat, atau karena sebab lainnya karena ada tantangan."
+fi
+
+if [ $pil = 43 ]
+then
+clear
+sleep 1
+echo $pu"Penetration Testing (disingkat pentest) adalah suatu kegiatan dimana seseorang mencoba mensimulasikan serangan yang bisa dilakukan terhadap jaringan organisasi / perusahaan tertentu untuk menemukan kelemahan yang ada pada sistem jaringan tersebut. "
+fi
+
+if [ $pil = 44 ]
+then
+clear
+sleep 1
+echo $pu"sesungguhnya hack itu nggak ada sekali pun yang pro hack itu nggak ada,kecuali pake metode phising itu juga keberhasilannya sangat kecil sekitar 10%."
+fi
+if [ $pil = 45 ]
+then
+clear
+sleep 1
+echo $bi"makasih ya bro script ini sekarang sungguh terkenal karena kalian " 
+sleep 1
+echo $bi"thanks bro :-)"
+fi
+
+
+if [ $pil = 46 ]
 then
 clear
 figlet -f slant "E X I T"|lolcat
