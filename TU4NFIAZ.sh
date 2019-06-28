@@ -38,11 +38,12 @@ echo $me                      ▄▀▄ █▄░█ ▄▀▄ █▄░█ ▀�
 echo $ku                      █▀█ █░▀█ █░█ █░▀█ ░░█░░ █░█░█ █░█ █░█ ░▀▄
 echo  $i                      ▀░▀ ▀░░▀ ░▀░ ▀░░▀ ░░▀░░ ▀░░░▀ ░▀░ ░▀░ ▀▀░
 echo
+echo                   $me"welcome to my script"
 echo $pu"+________________________________________________________+"
-echo             $me"WELCOME TO MY SCRIPT"
-echo $KU"AUTHOR=MR.F"
-echo  $i"CONTACT WA =085220205961"
-echo $bi"GUNAKANLAH DENGAN BIJAK JANGAN DI SALAH GUNAKAN :)"
+echo
+echo $me"AUTHOR=FAIZ"
+echo  $ku"CONTACT WA =085220205961"
+echo   $i"GUNAKANLAH DENGAN BIJAK JANGAN DI SALAH GUNAKAN :)"
 echo $pu"__________________________________________________________"
 echo $cy"01"."sosial media ku"
 echo $cy"00"."aplikasi hacking kumpulan script termux"
@@ -50,7 +51,7 @@ echo $me"1"."ddos"
 echo $ku"2"."sms work 100%"
 echo  $i"3"."sms  work 200%"
 echo $me"4"."buat script deface"
-echo $ku"5"."hack fb target"
+echo $ku"5"."hack facebook 100%"
 echo  $i"6"."hack fb nebak password"
 echo $me"7"."RED HAWK"
 echo $ku"8"."OSIF (curi data fb )"
@@ -69,7 +70,7 @@ echo $ku"20"."admin finder"
 echo  $i"21"."install mrv"
 echo $me"22"."TOOL DTECT"
 echo $ku"23"."cloning yahoo"
-echo  $i"24"."kumpulan web vuln"
+echo  $i"24"."kumpulan website vuln"
 echo $me"25"."hack gmail /root"
 echo $ku"26"."hack wifi tetangga"
 echo  $i"27"."keadaan cuaca hari ini"
@@ -92,6 +93,7 @@ echo $me"43"."pengertian penetrasi testing"
 echo $ku"44"."misteri hack fb,instagram,wa sesungguhnya"
 echo  $i"45"."ucapan syukur"
 echo $cy"46"."exit/keluar"
+echo $cy"47"."kumpulan nomor para mastah"
 echo
 echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"Ôò¦ÔöÇ>> " pil
@@ -142,6 +144,8 @@ pkg install git
 git clone https://github.com/faizzzzzzz/smscaping
 cd smscaping
 php Bomsms.php
+sleep 5
+sh TU4NFIAZ.sh
 fi
 
 if [ $pil = 3 ]
@@ -171,10 +175,14 @@ then
 clear
 sleep 1
 pkg install python2
+pip2 install mechanize
 pkg install git
-git clone https://github.com/pirmansx/mbf
-cd mbf
-python2 MBF.py
+git clone https://github.com/pashayogi/SETAN
+cd SETAN
+Pip2 install mechanize
+Pip install requests
+Pip2 install requests
+Python2 SETAN.py
 fi
 
 if [ $pil = 6 ]
@@ -590,58 +598,76 @@ fi
 if [ $pil = 37 ]
 then
 clear
-sleep 1
-echo $pu"Distributed Denial of Service atau lebih dikenal dengan nama DDoS adalah sebuah percobaan penyerangan dari beberapa sistem komputer yang menargetkan sebuah server agar jumlah traffic menjadi terlalu tinggi sampai server tidak bisa menghandle reque"
+sleep 5
+echo $cy"Distributed Denial of Service atau lebih dikenal dengan nama DDoS adalah sebuah percobaan penyerangan dari beberapa sistem komputer yang menargetkan sebuah server agar jumlah traffic menjadi terlalu tinggi sampai server tidak bisa menghandle reque"
+sleep 5
+echo $me"kalo kurang jelas hubungi nomor wa 085220205961"
 fi
 
 if [ $pil = 38 ]
 then
 clear
-sleep 1
-echo $pu"Deface adalah teknik mengganti atau menyisipkan file pada server, teknik ini dapat dilakukan karena terdapat lubang pada sistem security yang ada di dalam sebuah aplikasi. Hal ini bertujuan untuk melakukan perubahan tampilan pada website korban dengan tampilan yang dimiliki oleh si defacer. Deface merupakan sebuah serangan yang dilakukan untuk mengganti visual dari sebuah website."
+sleep 5
+echo $pur"Deface adalah teknik mengganti atau menyisipkan file pada server, teknik ini dapat dilakukan karena terdapat lubang pada sistem security yang ada di dalam sebuah aplikasi. Hal ini bertujuan untuk melakukan perubahan tampilan pada website korban dengan tampilan yang dimiliki oleh si defacer. Deface merupakan sebuah serangan yang dilakukan untuk mengganti visual dari sebuah website."
+sleep 5
+echo $me"kalo kurang jelas hubungi nomor wa 085220205961"
 fi
 
 if [ $pil = 39 ]
 then
 clear
-sleep 1
-echo $pu"hacker adalah orang yang mempelajari, menganalisis, memodifikasi, menerobos masuk ke dalam komputer dan jaringan komputer, baik untuk keuntungan atau dimotivasi oleh tantangan."
+sleep 5
+echo $cy"hacker adalah orang yang mempelajari, menganalisis, memodifikasi, menerobos masuk ke dalam komputer dan jaringan komputer, baik untuk keuntungan atau dimotivasi oleh tantangan."
+sleep 5
+echo $me"kalo kurang jelas hubungi nomor wa 085220205961"
 fi
 
 if [ $pil = 40 ]
 then
 clear
-sleep 1
-echo $pu"  Metasploit framework adalah sebuah penetration tool yang cukup powerfull untuk melakukan penestrasi kedalam sebuah system."
+sleep 5
+echo $pur"  Metasploit framework adalah sebuah penetration tool yang cukup powerfull untuk melakukan penestrasi kedalam sebuah system."
+sleep 5
+echo $me"kalo kurang jelas hubungi nomor wa 085220205961"
+sh TU4NFIAZ.sh
 fi
 
 if [ $pil = 41 ]
 then
 clear
-sleep 1
-echo $pu"SQLMap adalah alat uji penetrasi open source yang mengotomatisasi proses mendeteksi dan mengeksploitasi kelemahan injeksi SQL dan mengambil alih basis data server. "
+sleep 5
+echo $cy"SQLMap adalah alat uji penetrasi open source yang mengotomatisasi proses mendeteksi dan mengeksploitasi kelemahan injeksi SQL dan mengambil alih basis data server. "
+sleep 5
+echo $me"kalo kurang jelas hubungi nomor wa 085220205961"
 fi
 
 if [ $pil = 42 ]
 then
 clear
-sleep 1
-echo $pu"Cracker adalah sebutan untuk mereka yang masuk ke sistem orang lain dan cracker lebih bersifat destruktif, biasanya di jaringan komputer, mem-bypass password atau lisensi program komputer, secara sengaja melawan keamanan komputer, men-deface (merubah halaman muka web) milik orang lain bahkan hingga men-delete data orang lain, mencuri data dan umumnya melakukan cracking untuk keuntungan sendiri, maksud jahat, atau karena sebab lainnya karena ada tantangan."
+sleep 5
+echo $pur"Cracker adalah sebutan untuk mereka yang masuk ke sistem orang lain dan cracker lebih bersifat destruktif, biasanya di jaringan komputer, mem-bypass password atau lisensi program komputer, secara sengaja melawan keamanan komputer, men-deface (merubah halaman muka web) milik orang lain bahkan hingga men-delete data orang lain, mencuri data dan umumnya melakukan cracking untuk keuntungan sendiri, maksud jahat, atau karena sebab lainnya karena ada tantangan."
+sleep 5
+echo $me"kalo kurang jelas hubungi nomor wa 085220205961"
 fi
 
 if [ $pil = 43 ]
 then
 clear
-sleep 1
-echo $pu"Penetration Testing (disingkat pentest) adalah suatu kegiatan dimana seseorang mencoba mensimulasikan serangan yang bisa dilakukan terhadap jaringan organisasi / perusahaan tertentu untuk menemukan kelemahan yang ada pada sistem jaringan tersebut. "
+sleep 5
+echo $cy"Penetration Testing (disingkat pentest) adalah suatu kegiatan dimana seseorang mencoba mensimulasikan serangan yang bisa dilakukan terhadap jaringan organisasi / perusahaan tertentu untuk menemukan kelemahan yang ada pada sistem jaringan tersebut. "
+sleep 5
+echo $me"kalo kurang jelas hubungi nomor wa 085220205961"
 fi
 
 if [ $pil = 44 ]
 then
 clear
-sleep 1
+sleep 5
 echo $pu"sesungguhnya hack itu nggak ada sekali pun yang pro hack itu nggak ada,kecuali pake metode phising itu juga keberhasilannya sangat kecil sekitar 10%."
+sleep 5
+echo $me"kalo kurang jelas hubungi nomor wa 085220205961"
 fi
+
 if [ $pil = 45 ]
 then
 clear
@@ -666,4 +692,15 @@ echo $ku"nama :"$i" Mr.f"
 sleep 2
 echo $pur">> TANHK FOR ALL MEMBER ACP <<"
 exit
+fi
+
+if [ $pil = 47 ]
+then
+clear
+sleep 1
+echo $me"085220205961"
+echo $ku"0895353484895"
+echo  $i"083873098030"
+sleep 2
+echo $pur"ya segitu sih nomor para mastah termux"
 fi
