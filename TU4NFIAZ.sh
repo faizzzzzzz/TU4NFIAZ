@@ -174,27 +174,21 @@ if [ $pil = 5 ]
 then
 clear
 sleep 1
-pkg install python2
-pip2 install mechanize
-pkg install git
-git clone https://github.com/pashayogi/SETAN
-cd SETAN
-Pip2 install mechanize
-Pip install requests
-Pip2 install requests
-Python2 SETAN.py
+echo $me"coba ulangi lalu pilih nomor 44"
+sleep 4
+sh TU4NFIAZ.sh
 fi
 
 if [ $pil = 6 ]
 then
 clear
 sleep 1
-pkg install python2
-pkg install git
-pkg install git https://github.com/pirmansx/mbf
-cd mbf
-python2 MBF.py
+echo $me"coba ketik ulang lalu pilih nomor 44"
+sleep 4
+sh TU4NFIAZ.sh
 fi
+
+
 
 if [ $pil = 7 ]
 then
@@ -298,9 +292,9 @@ clear
 sleep 1
 pkg install git
 git clone https://github.com/b3-v3r/Hunner
- cd Hunner
- chmod 777 hunner.py
- python hunner.py
+cd Hunner
+chmod 777 hunner.py
+python hunner.py
 fi
 
 if  [ $pil = 17 ]
@@ -480,7 +474,8 @@ if [ $pil = 27 ]
 then
 clear
 sleep 1
-curl http://wttr
+pkg install curl
+ curl http://wttr.in/
 fi
 
 if [ $pil = 28 ]
@@ -497,15 +492,9 @@ if [ $pil = 29 ]
 then
 clear
 sleep 1
-pkg install git
-pkg install nano
-git clone https://github.com/avramit/instahack.git
-ls
-cd instahack
-ls
-pip install requests
-cd instahack
-nano pass.txt
+echo $me"coba ulangi lalu pilih nomor 44"
+sleep 4
+sh TU4NFIAZ.sh
 fi
 
 if [ $pil = 30 ]
@@ -666,6 +655,9 @@ sleep 5
 echo $pu"sesungguhnya hack itu nggak ada sekali pun yang pro hack itu nggak ada,kecuali pake metode phising itu juga keberhasilannya sangat kecil sekitar 10%."
 sleep 5
 echo $me"kalo kurang jelas hubungi nomor wa 085220205961"
+am start https:/api.whatsapp.com/send?phone=6285220205961
+sleep 5
+sh TU4NFIAZ.sh
 fi
 
 if [ $pil = 45 ]
@@ -688,7 +680,7 @@ sleep 2
 echo $i"share ke temen kalian jangan lupa yaps!!"
 sleep 2
 echo $ku"contact :"$i" 085220205961"
-echo $ku"nama :"$i" Mr.f"
+echo $ku"nama :"$i"faiz"
 sleep 2
 echo $pur">> TANHK FOR ALL MEMBER ACP <<"
 exit
@@ -697,10 +689,12 @@ fi
 if [ $pil = 47 ]
 then
 clear
-sleep 1
-echo $me"085220205961"
-echo $ku"0895353484895"
-echo  $i"083873098030"
+sleep 2
+echo $me"085220205961(bang faiz)"
+sleep 2
+echo $ku"0895353484895(bang deray)"
+sleep 2
+echo  $i"083873098030(dimas pnr)"
 sleep 2
 echo $pur"ya segitu sih nomor para mastah termux"
 fi
