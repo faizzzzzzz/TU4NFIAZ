@@ -112,6 +112,7 @@ echo $bi"Gmail=psgjloyalis62@gmail.com"
 sleep 2
 echo $pur"segituh dulu ya itu sosmed yang aku punya"
 am start https:/api.whatsapp.com/send?phone=6285220205961
+sh TU4NFIAZ.sh
 fi
 
 if [ $pil = 00 ]
@@ -124,7 +125,9 @@ echo $cy"https://drive.google.com/file/d/1kwtEt22gngqcqd0L-ABq3DVb9_gjJxfx/view?
 sleep 10
 echo $cy"wa=085220205961  save yaa faiz nama ku"
 am start https:/api.whatsapp.com/send?phone=6285220205961
+sh TU4NFIAZ.sh
 fi
+
 
 
 if [ $pil = 1 ]
