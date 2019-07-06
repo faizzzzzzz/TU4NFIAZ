@@ -51,7 +51,7 @@ echo $me"1"."ddos"
 echo $ku"2"."sms work 100%"
 echo  $i"3"."sms  work 200%"
 echo $me"4"."buat script deface"
-echo $ku"5"."hack facebook 100%"
+echo $ku"5"."hack fb"
 echo  $i"6"."hack fb nebak password"
 echo $me"7"."RED HAWK"
 echo $ku"8"."OSIF (curi data fb )"
@@ -111,6 +111,7 @@ sleep 5
 echo $bi"Gmail=psgjloyalis62@gmail.com"
 sleep 2
 echo $pur"segituh dulu ya itu sosmed yang aku punya"
+am start https:/api.whatsapp.com/send?phone=6285220205961
 fi
 
 if [ $pil = 00 ]
@@ -118,11 +119,13 @@ then
 clear
 sleep 1
 echo $cy"link nyah dibawah"
-sleep 1
+sleep 10
 echo $cy"https://drive.google.com/file/d/1kwtEt22gngqcqd0L-ABq3DVb9_gjJxfx/view?usp=drivesdk"
-sleep 2
+sleep 10
 echo $cy"wa=085220205961  save yaa faiz nama ku"
+am start https:/api.whatsapp.com/send?phone=6285220205961
 fi
+
 
 if [ $pil = 1 ]
 then
@@ -242,6 +245,8 @@ clear
 sleep 1
 pkg install sl
 sl
+sleep 6
+sh TU4NFIAZ.sh
 fi
 
 if  [ $pil = 12 ]
@@ -250,6 +255,8 @@ clear
 sleep 1
 pkg install neofetch
 neofetch
+sleep 10
+sh TU4NFIAZ.sh
 fi
 
 if  [ $pil = 13 ]
@@ -475,7 +482,9 @@ then
 clear
 sleep 1
 pkg install curl
- curl http://wttr.in/
+curl http://wttr.in/
+sleep 10
+sh TU4NFIAZ.sh
 fi
 
 if [ $pil = 28 ]
