@@ -180,7 +180,7 @@ if [ $pil = 5 ]
 then
 clear
 sleep 1
-echo $me"coba ulangi lalu pilih nomor 44"
+echo $me"untuk hack facebook kalian harus pilih script nomor 36 punya dimas pnr"
 sleep 4
 sh TU4NFIAZ.sh
 fi
@@ -189,7 +189,7 @@ if [ $pil = 6 ]
 then
 clear
 sleep 1
-echo $me"coba ketik ulang lalu pilih nomor 44"
+echo $me"untuk hack facebook kalian harus pilih nomor 36 punya dimas pnr"
 sleep 4
 sh TU4NFIAZ.sh
 fi
@@ -664,7 +664,7 @@ if [ $pil = 44 ]
 then
 clear
 sleep 5
-echo $pu"sesungguhnya hack itu nggak ada sekali pun yang pro hack itu nggak ada,kecuali pake metode phising itu juga keberhasilannya sangat kecil sekitar 10%."
+echo $pu"sesungguhnya hack itu nggak ada sekali pun yang pro hack itu nggak ada,kecuali pake metode phising itu juga keberhasilannya sangat kecil sekitar 10% dan juga metode random punya darkfb"
 sleep 5
 echo $me"kalo kurang jelas hubungi nomor wa 085220205961"
 am start https:/api.whatsapp.com/send?phone=6285220205961
@@ -702,7 +702,7 @@ if [ $pil = 47 ]
 then
 clear
 sleep 2
-echo $me"085220205961(bang faiz)"
+echo $me"085220205961(Aku)"
 sleep 2
 echo $ku"0895353484895(bang deray)"
 sleep 2
