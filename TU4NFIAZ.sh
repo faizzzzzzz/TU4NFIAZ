@@ -48,8 +48,8 @@ echo $pu"__________________________________________________________"
 echo $cy"01"."sosial media ku"
 echo $cy"00"."aplikasi hacking kumpulan script termux"
 echo $me"1"."ddos"
-echo $ku"2"."sms work 100%"
-echo  $i"3"."sms  work 200%"
+echo $ku"2"."spam sms work 100%"
+echo  $i"3"."call misterius"
 echo $me"4"."buat script deface"
 echo $ku"5"."hack fb"
 echo  $i"6"."hack fb nebak password"
@@ -134,12 +134,13 @@ if [ $pil = 1 ]
 then
 clear
 sleep 1
-pkg install python2
 pkg install git
-git clone https://github.com/faizzzzzzz/ddos
-cd ddos
+git clone https://github.com/RaphSoft/ddos-mbledos.git
+cd ddos-mbledos
+chmod +x ddos.py
 python2 ddos.py
 fi
+
 
 if [ $pil = 2 ]
 then
@@ -158,11 +159,12 @@ if [ $pil = 3 ]
 then
 clear
 sleep 1
-pkg insall php
-pkg install git
-git clone https://github.com/zlucifer/troll_project
-cd troll_project
-sh troll.sh
+pkg install figlet
+pkg install ruby
+gem install lolcat
+git clone https://github.com/T14RB373T/FAKECALL
+cd FAKECALL
+bash call.sh
 fi
 
 if [ $pil = 4 ]
