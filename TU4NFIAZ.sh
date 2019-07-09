@@ -9,6 +9,13 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 #jangan kau recode
 echo
+sleep 3
+echo                        $cy"script ini telah di perbaiki"
+sleep 3
+echo                        $i"script ini di buat oleh faiz"
+sleep 3
+echo                          $bi"085220205961"$pu"(faiz)"
+sleep 3
 echo
 echo $pu.        ╔═══════════╗ 
 echo $pu   ╔═╝███████████╚═╗
@@ -47,7 +54,7 @@ echo   $i"GUNAKANLAH DENGAN BIJAK JANGAN DI SALAH GUNAKAN :)"
 echo $pu"__________________________________________________________"
 echo $cy"01"."sosial media ku"
 echo $cy"00"."aplikasi hacking kumpulan script termux"
-echo $me"1"."ddos"
+echo $me"1"."DDOS"
 echo $ku"2"."spam sms work 100%"
 echo  $i"3"."call misterius"
 echo $me"4"."buat script deface"
@@ -82,7 +89,7 @@ echo $ku"32"."install social fish"
 echo  $i"33"."install scaner inurl"
 echo $me"34"."install crew bot"
 echo $ku"35"."install kktp gratis"
-echo  $i"36"."script dimas pnr"
+echo  $i"36"."script SETAN"
 echo $me"37"."pengertian ddos"
 echo $ku"38"."pengertian deface"
 echo  $i"39"."pengertian hacker sesungguhnya"
@@ -182,7 +189,7 @@ if [ $pil = 5 ]
 then
 clear
 sleep 1
-echo $me"untuk hack facebook kalian harus pilih script nomor 36 punya dimas pnr"
+echo $me"untuk hack facebook kalian harus pilih script nomor 36 script setan"
 sleep 4
 sh TU4NFIAZ.sh
 fi
@@ -191,7 +198,7 @@ if [ $pil = 6 ]
 then
 clear
 sleep 1
-echo $me"untuk hack facebook kalian harus pilih nomor 36 punya dimas pnr"
+echo $me"untuk hack facebook kalian harus pilih nomor 36 script setan"
 sleep 4
 sh TU4NFIAZ.sh
 fi
@@ -472,14 +479,16 @@ if [ $pil = 26 ]
 then
 clear
 sleep 1
-apt install git
-git clone https://github.com/esc0rtd3w/wifi-hacker
-ls
-cd wifi-hacker
-ls
-chmod +x wifi-hacker.sh
-ls
-wifi-hacker.sh
+echo $cy"script ini harus root"
+sleep
+echo $cy"kalo belum root tidak bisa"
+sleep 1
+pkg install tsudo
+pkg install git
+git clone https://github.com/karjok/shoWifi
+cd shoWifi
+tsu
+python show.py
 fi
 
 if [ $pil = 27 ]
@@ -592,10 +601,10 @@ clear
 sleep 1
 apt update && apt upgrade
 apt install git
-apt istall python
-git clone https://github.com/rx1one/newbie01
-cd newbie01
-sh rdiz.sh
+pkg install python2
+git clone https://github.com/pashayogi/SETAN,git
+cd SETAN
+python2 SETAN.py
 fi
 
 if [ $pil = 37 ]
