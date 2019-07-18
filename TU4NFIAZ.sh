@@ -9,6 +9,9 @@ pu='\033[37;1m' #putih
 ku='\033[33;1m' #kuning
 #jangan kau recode
 echo
+echo
+python2 faiz.py
+echo
 sleep 3
 echo                        $cy"script ini telah di perbaiki"
 sleep 3
@@ -158,8 +161,6 @@ pkg install git
 git clone https://github.com/faizzzzzzz/smscaping
 cd smscaping
 php Bomsms.php
-sleep 5
-sh TU4NFIAZ.sh
 fi
 
 if [ $pil = 3 ]
