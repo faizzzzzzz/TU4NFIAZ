@@ -10,7 +10,7 @@ ku='\033[33;1m' #kuning
 #jangan kau recode
 echo
 echo
-python2 faiz.py
+echo
 echo
 sleep 3
 echo                        $cy"script ini telah di perbaiki"
@@ -104,6 +104,7 @@ echo $ku"44"."misteri hack fb,instagram,wa sesungguhnya"
 echo  $i"45"."ucapan syukur"
 echo $cy"46"."exit/keluar"
 echo $cy"47"."kumpulan nomor para mastah"
+echo $cy"48"."musikan"
 echo
 echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"Ôò¦ÔöÇ>> " pil
@@ -721,4 +722,30 @@ sleep 2
 echo  $i"083873098030(dimas pnr)"
 sleep 2
 echo $pur"ya segitu sih nomor para mastah termux"
+
 fi
+if [ $pil = 48 ]
+then
+clear
+sleep 2
+pkg install git
+git clone https://github.com/faizzzzzzz/anjay
+cd anjay
+sh anjay.sh
+mpv lagu.mp3
+echo $me"contoh"
+sleep 2
+echo $me"contoh"
+sleep 2
+echo $me"contoh"
+sleep 2echo $me"contoh"
+sleep 2
+echo $me"contoh"
+sleep 2
+echo $me"contoh"
+sleep 2
+echo $me"contoh"
+sleep 2
+echo $me"good"
+fi
+
